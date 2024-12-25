@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Comment Analyzer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="/styles/index.css">
+    <style>
+        #about {
+            background-image:linear-gradient(rgba(101, 131, 254, 0.726),rgba(81, 91, 233, 0.761)), url('images/analysis11.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: white;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="images/logo1.png" height="80" width="90"></div>
+            <div>
+                <a href="/"><i class="fas fa-home"></i> Home</a>
+                <a href="/"><i class="fas fa-info-circle"></i> About</a>
+                <a href="/contact"><i class="fas fa-envelope"></i> Contact</a>
+                <a href="/register"><i class="fas fa-user-plus"></i> Register</a>
+            </div>
+        </nav>
+    </header>
+
+    <section id="about">
+        <div class="marquee">
+            <span>Stay updated with the latest YouTube comment analysis features!Register now for exclusive offers!</span>
+        </div>
+        <h2>Comment Dashboard<br><span>YouTube Comments Analyzers</h2>
+            <p style="font-family: 'Verdana', sans-serif; font-weight: bold;">
+               <br> Ready to take your YouTube channel to the next level? Register now and start analyzing your video comments to uncover valuable insights and enhance your audience engagement!
+            </p>
+        <div class="additional-buttons">
+            <a href="/register" class="btn">
+                <button type="button">Register</button>
+            </a>
+            <a  class="btn1" href="#input">
+                <button type="button">Analysis now</button>
+            </a>
+        </div>
+    </section>
+
+    <section id="input">
+        <div class="marquee">
+            <span>Get the best insights into YouTube comments! Analyze your videos today!</span>
+        </div>
+        <h2>Enter YouTube Video URL</h2>
+        <p>Paste the URL of the YouTube video you want to analyze:</p>
+        <form action="/analyze" method="POST">
+            <div class="input-container">
+                <input type="text" id="videoUrl" name="videoUrl" required placeholder="Enter the video URL">
+            </div>
+            <button type="submit" class="btnSubmit">Analyze</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <li>Jobs</li>
+            <li>Privacy Policy</li>
+            <li>Investor Relations</li>
+            <li>Terms and Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Features</h3>
+            <li>Analysis Comments</li>
+            <li>Audience Engagement</li>
+            <li>Gain Insights</li>
+        </div>
+        <div class="footer-col">
+            <h3>Site Navigation</h3>
+            <li><a href="#home">Home</a></li>
+            <li><a href="course.html">Courses</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </div>
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>You can trust us. We only send promo offers.</p>
+            <div class="subscribe">
+                <input type="text" placeholder="Your Email Address"><br><br>
+                <a href="#" class="yellow">SUBSCRIBE</a>
+            </div>       
+        </div>
+        <div class="pro-links">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin-in"></i>
+        </div>
+    </footer>
+</body>
+</html>

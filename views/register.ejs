@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Comments Analyzer - Registration</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="/styles/register.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div id="div1" ><img src="images/logo1.png" height="80" width="90"></div>
+             <div id="div2">
+                 <a href="/index"><i class="fas fa-home"></i> Home</a>
+                 <a href="/"><i class="fas fa-info-circle"></i> About</a>
+                 <a href="/contact"><i class="fas fa-envelope"></i> Contact</a>
+                 <a href="/register"><i class="fas fa-user-plus"></i> Register</a>
+             </div>
+     </nav>
+    </header>
+    <!-- Moving Text -->
+    <div class="marquee">
+        <span>Welcome to the YouTube Comments Analyzer! Analyze and understand your comments better!</span>
+    </div>
+
+    <form action="/register" method="POST" onsubmit="return showGreeting(event)">
+        <h1>Register Now!!</h1>
+        <div class="input-container">
+            <i class="fas fa-user input-icon"></i>
+            <input type="text" id="username" name="username" required placeholder="Username">
+        </div>
+        <div class="input-container">
+            <i class="fas fa-envelope input-icon"></i>
+            <input type="email" name="email" required placeholder="Email">
+        </div>
+        <div class="input-container">
+            <i class="fas fa-eye-slash toggle-password" id="togglePassword" onclick="togglePassword()"></i>
+            <input type="password" id="password" name="password" required placeholder="Password">
+        </div>
+        <button type="submit">Register</button>
+
+        <!-- Greeting Card -->
+        <div class="greeting-card" id="greetingCard" style="display: none;">
+            <span class="greeting-text" id="greetingText"></span>
+            <span class="emoji">🎉</span>
+            <span class="close-icon" onclick="this.parentElement.style.display='none';">&times;</span>
+        </div>
+    </form>
+
+    <script>
+        function togglePassword() {
+            const passwordInput = document.getElementById('password');
+            const toggleIcon = document.getElementById('togglePassword');
+            if (passwordInput.type === 'password') {
+                passwordInput.type = 'text';
+                toggleIcon.classList.remove('fa-eye-slash');
+                toggleIcon.classList.add('fa-eye'); // Show password
+            } else {
+                passwordInput.type = 'password';
+                toggleIcon.classList.remove('fa-eye'); // Hide password
+                toggleIcon.classList.add('fa-eye-slash');
+            }
+        }
+
+        function showGreeting(event) {
+            event.preventDefault(); 
+            const username = document.getElementById('username').value;
+            const greetingText = `Welcome, ${username}! You successfully registered.`;
+            document.getElementById('greetingText').innerText = greetingText;
+            document.getElementById('greetingCard').style.display = 'block';
+            event.target.submit(); // Submit the form after showing greeting
+        }
+    </script>
+</body>
+</html>
