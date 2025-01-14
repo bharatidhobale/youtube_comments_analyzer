@@ -79,6 +79,8 @@ Open your browser and navigate to:
 ## **Screenshots**
 ### 1. Sentiment Analysis Results
 ![Sentiment Analysis](path-to-screenshot/sentiment-analysis.png)
+![Screenshot 2025-01-14 234655](https://github.com/user-attachments/assets/68a42114-7392-4687-ad87-bec2ae3fe512)
+
 
 ### 2. Registration Form
 ![Registration Form](path-to-screenshot/registration-form.png)
