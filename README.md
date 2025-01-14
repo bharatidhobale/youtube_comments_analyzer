@@ -87,10 +87,11 @@ Open your browser and navigate to:
 ![Screenshot 2025-01-14 234655](https://github.com/user-attachments/assets/68a42114-7392-4687-ad87-bec2ae3fe512)
 
 
-### 2. Registration Form
-![Registration Form](path-to-screenshot/registration-form.png)
+### 3. Sentiment Analysis Results Registration Form
 
-### 3. Contact Form
+![Screenshot 2025-01-14 235945](https://github.com/user-attachments/assets/bf3a551b-fb09-40fa-bc4e-a3bbaf282153)
+
+### 3.  Contact Form
 ![Contact Form](path-to-screenshot/contact-form.png)
 
 *(Replace `path-to-screenshot` with the actual file paths or URLs of your screenshots.)*
