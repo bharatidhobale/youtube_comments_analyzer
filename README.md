@@ -77,7 +77,7 @@ Open your browser and navigate to:
 ---
 
 ## **Screenshots**
-### 1.Home page Sentiment Analysis Results
+### 1.Home page 
 ![Screenshot 2025-01-14 234922](https://github.com/user-attachments/assets/6bef2327-c654-4e92-a24e-e2868883bd2c)
 
 
@@ -91,10 +91,14 @@ Open your browser and navigate to:
 
 ![Screenshot 2025-01-14 235945](https://github.com/user-attachments/assets/bf3a551b-fb09-40fa-bc4e-a3bbaf282153)
 
-### 3.  Contact Form
-![Contact Form](path-to-screenshot/contact-form.png)
+### 4. Registration Form Contact Form
 
-*(Replace `path-to-screenshot` with the actual file paths or URLs of your screenshots.)*
+![Screenshot 2025-01-15 000401](https://github.com/user-attachments/assets/19701cf0-f69f-46a5-bf5e-e218e7488007)
+
+### 5. Contact Form
+![Screenshot 2025-01-15 000608](https://github.com/user-attachments/assets/a383287f-4d74-46a7-9ea7-0c7a1f4fb345)
+
+
 
 ---
 
