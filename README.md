@@ -77,8 +77,11 @@ Open your browser and navigate to:
 ---
 
 ## **Screenshots**
-### 1. Sentiment Analysis Results
-![Sentiment Analysis](path-to-screenshot/sentiment-analysis.png)
+### 1.Home page Sentiment Analysis Results
+![Uploading Screenshot 2025-01-14 234922.png…]()
+
+### 2.input page
+
 ![Screenshot 2025-01-14 234655](https://github.com/user-attachments/assets/68a42114-7392-4687-ad87-bec2ae3fe512)
 
 
