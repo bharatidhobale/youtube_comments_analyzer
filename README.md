@@ -22,7 +22,7 @@ Additionally, the project includes:
 - **Backend**: Node.js, Express.js
 - **Frontend**: HTML, CSS, JavaScript
 - **Database**: MySQL
-- **Other Tools**: SQL
+  
 
 ---
 
