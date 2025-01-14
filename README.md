@@ -1,4 +1,4 @@
-# 📊 YouTube Comments Analyzer
+![Screenshot 2025-01-14 234922](https://github.com/user-attachments/assets/9865003e-4ef2-474d-baac-b76a32ebbd41)# 📊 YouTube Comments Analyzer
 
 ## **Overview**
 The **YouTube Comments Analyzer** is a web-based application that performs sentiment analysis on YouTube video comments. It categorizes comments into **Positive**, **Negative**, and **Neutral** sentiments and visualizes the results using a **pie chart**. The application also calculates the **audience engagement percentage** for the video.
@@ -78,7 +78,9 @@ Open your browser and navigate to:
 
 ## **Screenshots**
 ### 1.Home page Sentiment Analysis Results
-![Uploading Screenshot 2025-01-14 234922.png…]()
+![Screenshot 2025-01-14 234922](https://github.com/user-attachments/assets/6bef2327-c654-4e92-a24e-e2868883bd2c)
+
+
 
 ### 2.input page
 
