@@ -96,12 +96,9 @@ Open your browser and navigate to:
 
 ---
 
-## **License**
-This project is licensed under the [MIT License](LICENSE).
 
----
 
 ## **Contact**
 If you have any questions, feedback, or issues, feel free to reach out at:  
-📧 connectwith.bharati@gmail.com
+📧 bharatidhobale01@gmail.com
 
