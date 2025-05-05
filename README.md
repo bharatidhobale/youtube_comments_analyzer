@@ -87,11 +87,11 @@ Open your browser and navigate to:
 ![Screenshot 2025-01-14 234655](https://github.com/user-attachments/assets/68a42114-7392-4687-ad87-bec2ae3fe512)
 
 
-### 3. Sentiment Analysis Results Registration Form
+### 3. Sentiment Analysis Results 
 
 ![Screenshot 2025-01-14 235945](https://github.com/user-attachments/assets/bf3a551b-fb09-40fa-bc4e-a3bbaf282153)
 
-### 4. Registration Form Contact Form
+### 4. Registration Form 
 
 ![Screenshot 2025-01-15 000401](https://github.com/user-attachments/assets/19701cf0-f69f-46a5-bf5e-e218e7488007)
 
